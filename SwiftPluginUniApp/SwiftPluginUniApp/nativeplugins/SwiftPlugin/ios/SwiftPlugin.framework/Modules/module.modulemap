@@ -1,0 +1,4 @@
+framework module SwiftPlugin {
+  header "SwiftPlugin-Swift.h"
+  requires objc
+}

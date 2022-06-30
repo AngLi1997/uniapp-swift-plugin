@@ -1,0 +1,22 @@
+{
+    "name": "SwiftPlugin",
+    "id": "SwiftPlugin",
+    "version": "1.0.0",
+    "description": "Swift插件",
+    "_dp_type": "nativeplugin",
+    "_dp_nativeplugin": {
+        "ios": {
+            "plugins": [
+                {
+                    "type": "module",
+                    "name": "SwiftPlugin-SwiftEntrance",
+                    "class": "SwiftEntrance"
+                }
+            ],
+            "frameworks": [],
+            "integrateType": "framework",
+            "deploymentTarget": "9.0",
+			"embedSwift": true
+        }
+    }
+}
